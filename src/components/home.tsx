@@ -1,9 +1,11 @@
 import React from 'react'
+import {Pbar} from './progressBar/pBar'
 
 export default function home() {
     return (
         <div>
-            <h1>home page</h1>
+            <h1>Progress Bar</h1>
+            <Pbar progress={80} />
         </div>
     )
 }
