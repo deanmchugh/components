@@ -5,7 +5,7 @@ export default function home() {
     return (
         <div>
             <h1>Progress Bar</h1>
-            <Pbar progress={80} />
+            <Pbar progress={10} />
         </div>
     )
 }
