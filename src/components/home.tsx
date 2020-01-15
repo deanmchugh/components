@@ -6,7 +6,7 @@ export default function home() {
     return (
         <div>
             <h1>Progress Bar</h1>
-            <Pbar progress={10} />
+            <Pbar progress={15} />
             <h1>Dark Mode</h1>
             <button onClick={Dmode}>Dark MODE!</button>
             <h1>Menu</h1>
